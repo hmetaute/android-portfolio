@@ -32,7 +32,7 @@
             android:text="@string/popular_movies"
             android:id="@+id/popular_movies_btn"
             android:onClick= "onButtonClicked"
-            android:background="#B2EBF2"
+            android:background="@color/buttonColor"
             android:layout_weight="1.0"
             android:layout_marginBottom="10dp" />
 
@@ -42,7 +42,7 @@
             android:layout_height="0dp"
             android:id="@+id/stock_hawk_btn"
             android:onClick= "onButtonClicked"
-            android:background="#B2EBF2"
+            android:background="@color/buttonColor"
             android:layout_weight="1.0"
             android:layout_marginBottom="10dp" />
 
@@ -52,7 +52,7 @@
             android:layout_height="0dp"
             android:id="@+id/build_it_bigger_btn"
             android:onClick= "onButtonClicked"
-            android:background="#B2EBF2"
+            android:background="@color/buttonColor"
             android:layout_weight="1.0"
             android:layout_marginBottom="10dp" />
 
@@ -62,7 +62,7 @@
             android:layout_height="0dp"
             android:id="@+id/material_app_btn"
             android:onClick= "onButtonClicked"
-            android:background="#B2EBF2"
+            android:background="@color/buttonColor"
             android:layout_weight="1.0"
             android:layout_marginBottom="10dp" />
 
@@ -72,7 +72,7 @@
             android:layout_height="0dp"
             android:id="@+id/go_ubiquitous_btn"
             android:onClick= "onButtonClicked"
-            android:background="#B2EBF2"
+            android:background="@color/buttonColor"
             android:layout_weight="1.0"
             android:layout_marginBottom="10dp" />
 
@@ -83,6 +83,6 @@
             android:id="@+id/caspstone_btn"
             android:onClick= "onButtonClicked"
             android:layout_weight="1.0"
-            android:background="#B2EBF2" />
+            android:background="@color/buttonColor" />
     </LinearLayout>
 </ScrollView>
